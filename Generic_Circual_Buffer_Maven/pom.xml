@@ -44,9 +44,9 @@
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>3.2.0</version>
 				<configuration>
-					<archive>
-						<manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
-					</archive>
+					<manifest>
+						<mainClass>com.mkyong.core.App</mainClass>
+					</manifest>
 				</configuration>
 			</plugin>
 			<plugin>
